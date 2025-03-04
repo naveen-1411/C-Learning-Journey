@@ -1,0 +1,37 @@
+Introduction to C Programming
+🔹 What is C?
+C is a general-purpose, procedural programming language developed by Dennis Ritchie in 1972 at Bell Labs. It is widely used for system programming, embedded systems, and game development.
+
+🔹 Why Learn C?
+- 🔥 Fast & Efficient – Runs close to hardware.
+-🖥️ Used in OS Development – Linux, Windows, and Unix are written in C.
+-🎮 Game Development – Many game engines are based on C.
+-🔒 Foundation for Ethical Hacking – Helps in understanding memory and system vulnerabilities.
+-⚡ Gateway to Other Languages – C concepts apply to C++, Java, and Python.
+
+🔹 Features of C
+✅ Simple & Powerful – Small core with powerful libraries.
+✅ Portable – Write once, compile anywhere.
+✅ Memory Management – Direct access to memory using pointers.
+✅ Procedural – Uses functions to break down complex tasks.
+✅ Modular Programming – Supports reusable code.
+
+🔹 First C Program
+Let’s write the classic "Hello, World!" program in C:
+#include <stdio.h>  // Header file for input-output
+
+int main() { 
+    printf("Hello, World!\n");  // Print output
+    return 0; 
+}
+
+🔹 Explanation:
+1️⃣ #include <stdio.h> → Includes the Standard Input-Output library.
+2️⃣ int main() → The starting point of any C program.
+3️⃣ printf("Hello, World!\n"); → Prints output to the console.
+4️⃣ return 0; → Indicates successful program execution.
+
+🔹 Your First Task! 🚀
+1️⃣ Modify the "Hello, World!" program to print:
+2️⃣ Try running the modified code.
+3️⃣ Let me know if you have any doubts! 😃
