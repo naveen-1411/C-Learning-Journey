@@ -1,0 +1,49 @@
+🔹 Variables & Data Types in C
+📌 What are Variables?
+A variable is a name given to a memory location that stores a value.
+
+🔹 Declaring a Variable in C
+data_type variable_name;
+int age;  // Declares an integer variable named 'age'
+🔹 Data Types in C
+C has several built-in data types for storing different types of values.
+DataType	     Size       	Example	Usage
+int           	4B	        int a = 10;	Whole numbers (positive, negative, zero)
+float         	4B	        float pi = 3.14;	Decimal numbers (up to 6 digits precision)
+double	        8B	        double x = 3.1415926535;	Decimal numbers with higher precision
+char	          1B        	char grade = 'A';	Stores single characters
+void	          0B         	void function_name();	Used for functions that return nothing
+
+
+🔹 Example: Using Different Data Types
+#include <stdio.h>
+
+int main() {
+    int age = 20;
+    float height = 5.9;
+    double pi = 3.1415926535;
+    char initial = 'A';
+
+    printf("Age: %d\n", age);
+    printf("Height: %.1f feet\n", height);
+    printf("Value of Pi: %.10lf\n", pi);
+    printf("Initial: %c\n", initial);
+
+    return 0;
+}
+
+
+🔹 Explanation
+%d → Used to print int values.
+%f → Used to print float values.
+%.1f → Prints float with 1 decimal place.
+%lf → Used to print double values.
+%c → Used to print characters.
+
+🔹 Task for You!
+1️⃣ Write a C program that declares:
+
+An int variable to store your age.
+A float variable to store your height.
+A char variable to store your initial.
+2️⃣ Print them using printf().
