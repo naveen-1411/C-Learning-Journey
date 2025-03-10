@@ -10,7 +10,3 @@ Welcome to my **C programming** learning journey! This repository contains my **
 - **Day 3**: Control flow (`if-else`, loops). 🔄 (Upcoming)  
 - **Day 4**: Functions and arrays. 🔄 (Upcoming)  
 ... _(Updating daily!)_  
-
----
-
-## 📂 **Folder Structure**
